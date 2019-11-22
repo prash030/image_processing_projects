@@ -6,12 +6,14 @@ Author:
     Prasanth "Prash" Ganesan <prasganesan.pg@gmail.com>
 
 Description:
-    This program calculates the evaluation statistics of deblurred images.
+    This program was originally created to calculate the evaluation 
+    statistics of deblurred images. However, this program can be used 
+    to evaluate any image with another image.
     
 Inputs:
-    input_dir = path of the directory where the image files are present
-    out_dir = path of directory where the output images have to be saved
-    GT_dir = path of directory where ground truth images are present
+    input_dir = path of the directory where the blur image files are present
+    out_dir = path of directory where the output deblurred images have to be saved
+    GT_dir = path of directory where ground truth sharp images are present
     
 Outputs:
     One output is a text file containing the evaluation metrics. Another output 
