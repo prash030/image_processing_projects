@@ -9,7 +9,9 @@ Description:
     This program calculates the evaluation statistics of deblurred images.
     
 Inputs:
-    
+    input_dir = path of the directory where the image files are present
+    out_dir = path of directory where the output images have to be saved
+    GT_dir = path of directory where ground truth images are present
     
 Outputs:
     One output is a text file containing the evaluation metrics. Another output 
@@ -133,8 +135,8 @@ def computeMetrics(input_dir,out_dir,GT_dir):
 # Main function
 if __name__ == "__main__":
     start_time = time.time()
-    input_dir = 'Z:/'
-    out_dir = 'Z:/'
+    input_dir = 'Z:/<path goes in here>'
+    out_dir = 'Z:/<path goes in here>'
     GT_dir = []
     computeMetrics(input_dir,out_dir,GT_dir)
     print("Evaluation complete")
