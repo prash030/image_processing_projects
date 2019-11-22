@@ -1,3 +1,6 @@
+% detect_cells.m (c) Prasanth "Prash" Ganesan
+% author email: prasganesan.pg@gmail.com
+
 % Read the rgb image
 I = imread('original.jpg');
 figure;imshow(I)
