@@ -20,7 +20,7 @@ Inputs:
     
 Outputs:
     The augmented images are automatically saved in the destination folder 
-    along with a log file which mentions the random blur type and the blur 
+    along with a log file which mentions the blur type and the blur 
     radius applied to each image file. The ground truth images are also saved 
     in the respective destination folder. The ground truth and the augmented 
     images form an image pair (so the number of images in these two output 
