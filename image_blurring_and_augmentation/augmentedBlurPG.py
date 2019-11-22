@@ -71,7 +71,7 @@ def save_image(img, path):
 def createBlurBatchPG(input_dir,out_dir,out_GT_dir):
     listimgs = list_img_files(input_dir)
     min_blur_radius = 4 #Pixel units
-    increament_factor = 4 #This is the step size of the blur radius for
+    increament_factor = 4 #This is the step size of the blur radius
     blur_types = ['avg', 'gaus']
     augment_size = 2 # This is the number of augmented images per blur type
     for img_path in listimgs:
