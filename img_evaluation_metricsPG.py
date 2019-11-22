@@ -14,7 +14,9 @@ Inputs:
 Outputs:
     One output is a text file containing the evaluation metrics. Another output 
     is image files showing the local difference map between images of interest
-    
+
+Literature used:
+    [1] https://github.com/RaphaelMeudec/deblur-gan
 -------------------------------------------------------------------------------
 """
 
