@@ -2,8 +2,8 @@
 """
 Created on Mon Nov 5 13:04:16 2018
 
-Author:
-    Prasanth "Prash" Ganesan <prasganesan.pg@gmail.com>
+Copyright (c) Prasanth "Prash" Ganesan
+Author email: <prasganesan.pg@gmail.com>
 
 Description:
     This program was originally created to calculate the evaluation 
