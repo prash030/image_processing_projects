@@ -2,8 +2,8 @@
 """
 Created on Mon Sep 10 15:18:51 2018
 
-Author:
-    Prasanth "Prash" Ganesan <prasganesan.pg@gmail.com>
+Copyright (c) Prasanth "Prash" Ganesan
+Author Email: <prasganesan.pg@gmail.com>
 
 Description:
     This program creates a augmented images that are blurry version of an input 
