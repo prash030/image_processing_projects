@@ -2,8 +2,8 @@
 """
 Created on Mon Oct 29 14:00:06 2018
 
-Author:
-    Prasanth "Prash" Ganesan <prasganesan.pg@gmail.com>
+Copyright (c) Prasanth "Prash" Ganesan
+Author email: <prasganesan.pg@gmail.com>
 
 Description:
     This program automatically locates the label 'L' in chest x-ray images and 
