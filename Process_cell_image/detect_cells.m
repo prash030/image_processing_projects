@@ -1,5 +1,6 @@
-% detect_cells.m (c) Prasanth "Prash" Ganesan
-% author email: prasganesan.pg@gmail.com
+% detect_cells.m 
+% Copyright (c) Prasanth "Prash" Ganesan
+% Author email: <prasganesan.pg@gmail.com>
 
 % Read the rgb image
 I = imread('original.jpg');
