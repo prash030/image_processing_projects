@@ -2,8 +2,8 @@
 """
 Created on Mon Sep 10 15:18:51 2018
 
-Author:
-    Prasanth "Prash" Ganesan <prasganesan.pg@gmail.com>
+Copyright (c) Prasanth "Prash" Ganesan
+Author email: <prasganesan.pg@gmail.com>
 
 Description:
     This program creates a blurry version of an input image. The type of blur
