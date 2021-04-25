@@ -2,7 +2,7 @@
 % ground truth images and other with predictions)
 
 clear
-path = ['C:\Users\gpras\Documents\MATLAB\Shiva\pras_ensemble\pras_ensemble_looping'];
+path = ['C:\Users\<your folder>'];
 files1 = dir([path filesep 'ae']); 
 k=1;
 for imgs = 1:length(files1)
