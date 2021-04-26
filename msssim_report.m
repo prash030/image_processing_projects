@@ -1,5 +1,6 @@
 % This program finds msssim between images in two folders (one folder with
 % ground truth images and other with predictions)
+% The image name and the msssim values are then written to a .csv file
 
 clear
 path = ['C:\Users\<your folder>'];
