@@ -1,0 +1,21 @@
+% Copyright (c) Prasanth "Prash" Ganesan
+% Author email: <prasganesan.pg@gmail.com>
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% ROC CURVE WITH OPTIMAL THRESHOLD
+predictions = ypred;
+GTlabels = ytest;
+figure;
+[X,Y,T,AUC,OPTROCPT] = perfcurve(GTlabels,predictions,1);
+plot(X,Y, 'linewidth',3)
+hold on
+plot(OPTROCPT(1),OPTROCPT(2),'r*','Linewidth',3)
+f=find([X==OPTROCPT(1) & Y==OPTROCPT(2)]);
+text(OPTROCPT(1)-0.05,OPTROCPT(2)-0.05, ['(' num2str(OPTROCPT(1)) ', ' num2str(OPTROCPT(2)) '), Area = ' num2str(T(f)) '%'], 'FontWeight','bold');
+xlabel('False positive rate')
+ylabel('True positive rate')
+title(['AUC = ' num2str(AUC)])
+set(gca,'FontWeight','bold')
+set(gca,'FontSize', 15)
+hold off
